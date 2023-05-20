@@ -9,3 +9,8 @@ $$ dV_t = \alpha(b-V_t)dt + \sigma \sqrt{V_t} dW_t^V,  $$
 and the correlation between the two Brownian motion is given by
 
 $$ dW_t^S dW_t^V = \rho dt. $$
+
+![plots](https://github.com/alexisdpc/Heston_model/assets/124795834/8c027d66-d434-4e33-9dbe-380885cea611)
+
+
+
