@@ -1,4 +1,4 @@
-# Heston Model
+# Heston Mode
 
 The Heston Model models the volatility of the asset as a stochastic process. The price of the asset is given by
 
