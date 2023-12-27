@@ -1,6 +1,6 @@
 # Heston Model
 
-The Heston Model models the volatility of the asset as a stochastic process. The price of the asset is given by
+The Heston Model models the volatility of the asset as a stochastic process. The price of the asset is given b
 
 $$ dS_t  = \mu S_t dt + \sqrt{V_t} S_t dW_t^S, $$
 
