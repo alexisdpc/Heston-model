@@ -13,4 +13,18 @@ $$ dW_t^S dW_t^V = \rho dt. $$
 ![plots](https://github.com/alexisdpc/Heston_model/assets/124795834/8c027d66-d434-4e33-9dbe-380885cea611)
 
 
+The Cox-Ingersoll-Ross model for interest rates has the same equation as the volatility in this model. The former is used when interest rates are expected to remain always positive
+
+$$ dr = \alpha(b-r)dt + \sigma \sqrt{r} dW_t. $$
+
+The expectation and variance for the interest rate $r(t)$ correspond to 
+\begin{align}
+\mathbf{E}[r(t)] & = e^{-\alpha t} r_0 + b(1-e^{-\alpha t}) \nonumber \\[1ex]
+%
+{\rm Var}[r(t)] & = \frac{\sigma^2}{a} r_0 (e^{-\alpha t} - e^{-2\alpha t}) + \frac{b\sigma^2}{2\alpha} (1- e^{-\alpha t})^2 \nonumber 
+\end{align} \\
+
+
+
+
 
