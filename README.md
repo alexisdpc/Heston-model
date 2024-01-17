@@ -14,10 +14,8 @@ $$ dW_t^S dW_t^V = \rho dt. $$
 
 
 Using Feynman-Kac theorem we can calculate the option price as an expectation value
-\begin{align}
-c_t & = \mathbf{E}[ {\rm max}(0,S-K) ]  \\[0.5ex]
-p_t & = \mathbf{E}[ {\rm max}(0,K-S) ] 
-\end{align}
+$$c_t  = \mathbf{E}[ {\rm max}(0,S-K) ]  $$
+$$p_t  = \mathbf{E}[ {\rm max}(0,K-S) ]  $$
 where $c_t$ ($p_t$) corresponds to a call (put) option and $K$ is the strike price.
 
 
