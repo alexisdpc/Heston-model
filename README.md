@@ -14,10 +14,9 @@ $$ dW_t^S dW_t^V = \rho dt. $$
 
 
 Using Feynman-Kac theorem we can calculate the option price as an expectation value
-$$c_t  = \mathbf{E}[ {\rm max}(0,S-K) ]  $$
-$$p_t  = \mathbf{E}[ {\rm max}(0,K-S) ]  $$
-where $c_t$ ($p_t$) corresponds to a call (put) option and $K$ is the strike price.
-
+$$c_t  = \mathbf{E}[ {\rm max}(0,S_T-K) ]  $$
+$$p_t  = \mathbf{E}[ {\rm max}(0,K-S_T) ]  $$
+where $c_t$ ($p_t$) corresponds to a call (put) option, $S_T$ is the stock price at maturity and $K$ is the strike price.
 
 The Cox-Ingersoll-Ross model for interest rates has the same equation as the volatility in this model. The former is used when interest rates are expected to remain always positive
 
