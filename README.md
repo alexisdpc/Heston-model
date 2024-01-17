@@ -13,7 +13,7 @@ $$ dW_t^S dW_t^V = \rho dt. $$
 ![plots](https://github.com/alexisdpc/Heston_model/assets/124795834/8c027d66-d434-4e33-9dbe-380885cea611)
 
 
-Using Feynman-Kac theorem we can calculate the option price as an expectation value
+Using the Feynman-Kac formula we can calculate the option price as an expectation value
 $$c_t  = \mathbf{E}[ {\rm max}(0,S_T-K) ]  $$
 $$p_t  = \mathbf{E}[ {\rm max}(0,K-S_T) ]  $$
 where $c_t$ ($p_t$) corresponds to a call (put) option, $S_T$ is the stock price at maturity and $K$ is the strike price.
