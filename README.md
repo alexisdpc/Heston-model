@@ -6,7 +6,7 @@ $$ dS_t  = \mu S_t dt + \sqrt{V_t} S_t dW_t^S, $$
 
 $$ dV_t = \alpha(b-V_t)dt + \sigma \sqrt{V_t} dW_t^V,  $$
 
-and the correlation between the two Brownian motions is given b
+and the correlation between the two Brownian motions is given by
 
 $$ dW_t^S dW_t^V = \rho dt. $$
 
