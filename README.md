@@ -1,6 +1,6 @@
 # Heston Model
 
-In the Heston Model, the volatility of the asset is a sotchastic process. The price of the asset is given b
+In the Heston Model, the volatility of the asset is a sotchastic process. The price of the asset is given by
 
 $$ dS_t  = \mu S_t dt + \sqrt{V_t} S_t dW_t^S, $$
 
