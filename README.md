@@ -26,7 +26,7 @@ The expectation and variance for the interest rate $r(t)$ correspond to
 
 $$ \mathbf{E}[r(t)]  = e^{-\alpha t} r_0 + b(1-e^{-\alpha t}) $$
 
-$$ {\rm Var}[r(t)]  = \frac{\sigma^2}{a} r_0 (e^{-\alpha t} - e^{-2\alpha t}) + \frac{b\sigma^2}{2\alpha} (1- e^{-\alpha t})^2 $$
+$$ {\rm Var}[r(t)]  = \frac{\sigma^2}{\alpha} r_0 (e^{-\alpha t} - e^{-2\alpha t}) + \frac{b\sigma^2}{2\alpha} (1- e^{-\alpha t})^2 $$
 
 
 
